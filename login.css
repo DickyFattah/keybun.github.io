@@ -2,14 +2,14 @@ body{
     background: url('https://i1.wallbox.ru/wallpapers/main2/201727/1499348622595e3e8ef27150.59040051.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-width: 100%; 
+    background-width: 100%;
     margin: 0px;
 }
 h1{
-	color: white;
-	font-family: Arial;
-	text-align: center;
-    top: 120px;
+	  color: white;
+	  font-family: Arial;
+	  text-align: center;
+    top: 100px;
     left: 125px;
 
     position: absolute;
@@ -21,9 +21,9 @@ h2{
     color: #066832;
 }
 .logo{
-	width: 20%;
+	  width: 15%;
     left: 120px;
-    top: 40px;
+    top: 20px;
     position: absolute;
 }
 
@@ -33,7 +33,7 @@ h2{
     left: 60px;
 	width: 35%;
     border-width: 0.5px;
-    color:white;    
+    color:white;
     border-radius:5px;
     padding: 20px;
     margin: 70px;
@@ -43,8 +43,8 @@ h2{
 }
 .daftar{
     top: 100px;
-    left: 650px;
-	width: 35%;
+    left: 850px;
+	  width: 35%;
     border-width: 0.5px;
     border-color: white;
     color:white;
