@@ -1,105 +1,88 @@
 body{
-    background: url('https://i1.wallbox.ru/wallpapers/main2/201727/1499348622595e3e8ef27150.59040051.jpg');
+    background: url('https://inteng-storage.s3.amazonaws.com/images/JULY/Sky-Greens.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-width: 100%;
     margin: 0px;
 }
-h1{
-	  color: white;
-	  font-family: Arial;
-	  text-align: center;
-    top: 100px;
-    left: 125px;
-
-    position: absolute;
-    font-size: 10px;
+.content{
+    width: 100%
 }
-h2{
-	font-family: Bebas;
-    font-size: 30px;
-    color: #066832;
+.header{
+    width: 100%;
+    background: #302c47;
+    color: white;
+}
+nav {
+  text-align:center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline;
+}
+ul > li {
+  display: inline;
+}
+ul > li > a {
+  text-decoration: none;
+  color: #f3f3f3;
+  background: #302c47;
+  padding: 10px 15px;
+}
+ul > li > a:hover {
+  background: #f3f3f3;
+  color: #302c47;
 }
 .logo{
-	  width: 15%;
-    left: 120px;
-    top: 20px;
-    position: absolute;
+    float:left;
+    padding: 10px
 }
+table[header]{
+    width: 100%;
+}
+.navigasi{
+    float:right;
+    padding: 10px
+}
+.content{
+    padding: 20px;
+}
+.tablemenu{
+    width: 100%;
+}
+.gambar{
+    float: right;
+    width: 45%;
+}
+figure{
+    background-color:
+    border-style: solid;
+    border-width: 3px;
+    border-radius:5px;
+    border-color: #e4ff00;
+    color: #302c47;
+    padding: 10px;
+    box-shadow: 0px 0px 15px -2px rgba(5,5,5,0.7);
+    background-color: rgba(255,255,255,0.8);
 
-.login{
-    top:100px;
+}
+fieldset{
     float: left;
-    left: 60px;
-	width: 35%;
-    border-width: 0.5px;
-    color:white;
+    width: 45%;
+    border: none;
     border-radius:5px;
-    padding: 20px;
-    margin: 70px;
-    position: absolute;
+    background-color: rgba(255,255,255,0.8);
     box-shadow: 0px 0px 15px -2px rgba(5,5,5,0.7);
-    background-color: rgba(255,255,255,0.5);
 }
-.daftar{
-    top: 100px;
-    left: 850px;
-	width: 35%;
-    border-width: 0.5px;
-    border-color: white;
-    color:white;
-    border-radius:5px;
-    padding: 20px;
-    margin: 70px;
-    box-shadow: 0px 0px 15px -2px rgba(5,5,5,0.7);
-    background-color: rgba(255,255,255,0.5);
+.footer{
+    width: 100%;
+    height:50px;
+    line-height: 50px;
+    background: #302c47;
+    color: #fff;
     position: absolute;
+    bottom: 0px;
 }
-input[type=password], input[type=text], input[type=email], select{
-	background-color: rgba(30,30,30,0.3);
-    width: 100%;
-    padding: 15px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: none;
-    border-radius: 5px;
-    box-sizing: border-box;
-    color: white;
-}
-textarea{
-	background-color: rgba(255,255,255,0.3);
-    width: 100%;
-    height: 200px;
-    padding: 15px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: none;
-    border-radius: 5px;
-    box-sizing: border-box;
-    color: white;
-}
-.masukbutton{
-	background-color: #e4ff00;
-    color: #066832;
-    padding: 15px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    border-radius:5px;
-    font-family: Bebas;
-    font-size: 20px;
-}
-.submitbutton{
-	background-color: #e4ff00;
-    color: #066832;
-    padding: 15px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    border-radius:5px;
-    font-family: Bebas;
-    font-size: 20px;
-}
-
