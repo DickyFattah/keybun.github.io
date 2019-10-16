@@ -6,10 +6,10 @@ body{
     margin: 0px;
 }
 h1{
-	  color: white;
-	  font-family: Arial;
-	  text-align: center;
-    top: 100px;
+	color: white;
+	font-family: Arial;
+	text-align: center;
+    top: 120px;
     left: 125px;
 
     position: absolute;
@@ -21,9 +21,9 @@ h2{
     color: #066832;
 }
 .logo{
-	  width: 15%;
+	width: 20%;
     left: 120px;
-    top: 20px;
+    top: 40px;
     position: absolute;
 }
 
@@ -43,7 +43,7 @@ h2{
 }
 .daftar{
     top: 100px;
-    left: 850px;
+    left: 650px;
 	width: 35%;
     border-width: 0.5px;
     border-color: white;
@@ -90,7 +90,7 @@ textarea{
     font-family: Bebas;
     font-size: 20px;
 }
-.submitbutton{
+.daftarbutton{
 	background-color: #e4ff00;
     color: #066832;
     padding: 15px 20px;
