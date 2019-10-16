@@ -1,0 +1,215 @@
+body{
+    background: url('https://ak2.picdn.net/shutterstock/videos/26483792/thumb/9.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-width: 100%;
+    margin: 0px;
+}
+.content{
+    width: 100%
+}
+.header{
+    width: 100%;
+    background: #302c47;
+    color: white;
+}
+nav {
+  text-align:center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline;
+}
+ul > li {
+  display: inline;
+}
+ul > li > a {
+  text-decoration: none;
+  color: #f3f3f3;
+  background: #302c47;
+  padding: 10px 15px;
+}
+ul > li > a:hover {
+  background: #f3f3f3;
+  color: #302c47;
+}
+.logo{
+    float: left;
+    padding: 10px
+}
+.navigasi{
+    float: right;
+    padding: 10px
+    width: 100%;
+}
+.content{
+    padding: 20px;
+}
+.tablemenu{
+    width: 100%;
+}
+.gambar{
+    width: 100%;
+}
+figure{
+    border-radius:5px;
+    border-color: #e4ff00;
+    color: #302c47;
+    padding: 3px; 
+    width: 300px;
+    margin: 10px;
+    height: 170px;
+    box-shadow: 0px 0px 15px -2px rgba(5,5,5,0.7);
+    background-color: rgba(255,255,255,0.4);
+
+}
+fieldset{
+    font-family: Arial;
+    font-size: 25px;
+    float: left;
+    color: white;
+    width: 90%;
+    border: none;
+    border-radius:5px;
+}
+.belibutton{
+    margin: 5px;
+    bottom: 0px;
+    background-color: #e4ff00;
+    color: #302c47;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    height: 30px;
+    border-radius:5px;
+    font-family: Bebas;
+    font-size: 20px;
+    position: relative;
+}
+.belibutton2{
+    margin: 10px;
+    bottom: 0px;
+    background-color: #e4ff00;
+    color: #302c47;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    height: 30px;
+    border-radius:5px;
+    font-family: Bebas;
+    font-size: 20px;
+    position: relative;
+}
+.tambahbutton{
+    margin: 10px;
+    bottom: 5px;
+    background-color: #e4ff00;
+    color: #302c47;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    height: 30px;
+    border-radius:5px;
+    font-family: Bebas;
+    font-size: 20px;
+    position: relative;
+}
+.namaSayur{
+  bottom: 50px;
+  position: relative;
+  font-family: Arial;
+  size: 30px;
+}
+.footer{
+    width: 100%;
+    height:50px;
+    line-height: 50px;
+    background: #302c47;
+    color: #fff;
+    position: relative;
+    bottom: 0px;
+    margin: 0px;
+}
+.rincian{
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  position: fixed;  
+  z-index: 99999;
+  display: none;
+  margin: 0px;
+}
+.rincianTambah{
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  position: fixed;  
+  z-index: 99999;
+  display: none;
+  margin: 0px;
+}
+.putihnya{
+  background-color: white;
+  border-radius: 5px;
+  width: 50%;
+  height: 500px;
+  margin : 80px 25% 0 25%;
+}
+.putihnyaTambah{
+  background-color: white;
+  border-radius: 5px;
+  width: 50%;
+  height: 500px;
+  margin : 80px 25% 0 25%;
+}
+.x{
+  float: right;
+  font-size: 25px;
+  margin-right: 8px;
+  cursor: pointer;
+  color: #302c47;
+}
+
+.rincianPembayaran{
+  color: #302c47;
+  margin: 10px;
+  font-family: Arial;
+  font-size: 20px
+}
+.rincianPembayaran input{
+  background-color: rgba(0,0,0,0.2);
+  width: 100%;
+  height: 40px;
+  margin: 10px;
+  padding: 20px;
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #302c47;
+  font-size: 30px;
+}
+.rincianTambahSayur{
+  color: #302c47;
+  margin: 10px;
+  font-family: Arial;
+  font-size: 20px
+}
+.rincianTambahSayur input{
+  background-color: rgba(0,0,0,0.2);
+  width: 100%;
+  height: 40px;
+  margin: 10px;
+  padding: 20px;
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #302c47;
+  font-size: 30px;
+}
