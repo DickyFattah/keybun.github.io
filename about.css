@@ -109,7 +109,7 @@ table[header]{
 }
 fieldset{
 
-    float: left;
+    left:50px;
 
     width: 45%;
 
