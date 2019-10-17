@@ -31,7 +31,7 @@ h2{
     top:100px;
     float: left;
     left: 60px;
-	width: 35%;
+    width: 35%;
     border-width: 0.5px;
     color:white;
     border-radius:5px;
@@ -90,7 +90,7 @@ textarea{
     font-family: Bebas;
     font-size: 20px;
 }
-.submitbutton{
+.daftarbutton{
 	background-color: #e4ff00;
     color: #066832;
     padding: 15px 20px;
