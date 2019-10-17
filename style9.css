@@ -66,7 +66,6 @@ figure{
     background-color: rgba(255,255,255,0.8);
 }
 fieldset{
-    float: left;
     width: 90%;
     border: none;
     border-radius:5px;
