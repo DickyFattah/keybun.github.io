@@ -5,17 +5,21 @@ body{
     background-width: 100%;
     margin: 0px;
 }
+
 .content{
     width: 100%
 }
+
 .header{
     width: 100%;
     background: #302c47;
     color: white;
 }
+
 nav {
   text-align:center;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -23,33 +27,39 @@ ul {
   overflow: hidden;
   display: inline;
 }
+
 ul > li {
   display: inline;
 }
+
 ul > li > a {
   text-decoration: none;
   color: #f3f3f3;
   background: #302c47;
   padding: 10px 15px;
 }
+
 ul > li > a:hover {
   background: #f3f3f3;
   color: #302c47;
 }
+
 .logo{
     float:left;
     padding: 10px
 }
+
 table[header]{
     width: 100%;
 }
+
 .navigasi{
     float:right;
     padding: 10px
 }
 
 .foto{
-margin-top: 300px;
+margin-top: 200px;
 }
 
 footer{
