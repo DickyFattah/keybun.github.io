@@ -60,8 +60,9 @@ figure{
     color: #302c47;
     padding: 3px; 
     width: 300px;
+    height: 600px;
     margin: 10px;
-    height: 170px;
+    height: 500px;
     box-shadow: 0px 0px 15px -2px rgba(5,5,5,0.7);
     background-color: rgba(255,255,255,0.4);
 
@@ -71,9 +72,10 @@ fieldset{
     font-size: 25px;
     float: left;
     color: white;
-    width: 90%;
+    width: 80%;
     border: none;
     border-radius:5px;
+    right: 15px;
 }
 .belibutton{
     margin: 5px;
@@ -88,7 +90,9 @@ fieldset{
     font-family: Bebas;
     font-size: 20px;
     position: relative;
+    margin-left: 200px;
 }
+
 .belibutton2{
     margin: 10px;
     bottom: 0px;
@@ -142,6 +146,7 @@ fieldset{
   z-index: 99999;
   display: none;
   margin: 0px;
+  padding:30px;
 }
 .rincianTambah{
   background-color: rgba(0,0,0,0.7);
@@ -157,15 +162,17 @@ fieldset{
   background-color: white;
   border-radius: 5px;
   width: 50%;
-  height: 500px;
+  height: 300px;
   margin : 80px 25% 0 25%;
+  padding: 30px;
 }
 .putihnyaTambah{
   background-color: white;
   border-radius: 5px;
   width: 50%;
-  height: 500px;
+  height: 550px;
   margin : 80px 25% 0 25%;
+
 }
 .x{
   float: right;
@@ -179,20 +186,23 @@ fieldset{
   color: #302c47;
   margin: 10px;
   font-family: Arial;
-  font-size: 20px
+  font-size: 20px;
+  right: 40px;
+
 }
 .rincianPembayaran input{
   background-color: rgba(0,0,0,0.2);
-  width: 100%;
+  width: 85%;
   height: 40px;
   margin: 10px;
-  padding: 20px;
+  padding: 10px;
   display: inline-block;
   border: none;
   border-radius: 5px;
   box-sizing: border-box;
   color: #302c47;
-  font-size: 30px;
+  font-size: 20px;
+  right: 60px;
 }
 .rincianTambahSayur{
   color: #302c47;
@@ -202,14 +212,42 @@ fieldset{
 }
 .rincianTambahSayur input{
   background-color: rgba(0,0,0,0.2);
-  width: 100%;
+  width: 75%;
   height: 40px;
   margin: 10px;
-  padding: 20px;
+  padding: 10px;
   display: inline-block;
   border: none;
   border-radius: 5px;
   box-sizing: border-box;
   color: #302c47;
-  font-size: 30px;
+  font-size: 20px;
+  right: 60px;
+}
+.keranjangbutton{
+    margin: 5px;
+    background-color: #e4ff00;
+    color: #302c47;
+    border: none;
+    cursor: pointer;
+    width: 75%;
+    height: 25px;
+    border-radius:5px;
+    font-family: Bebas;
+    font-size: 15px;
+    position: relative;
+    left: 0;
+}
+.tabelKeranjang{
+  width: 50%;
+  color: white;
+  font-family: Arial;
+  font-size: 20px;
+  border-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px -2px rgba(5,5,5,0.7);
+  background-color: rgba(255,255,255,0.4);
+  margin-left: 400px;
+  margin-bottom: 20px;
+  padding: 15px;
 }
