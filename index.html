@@ -9,14 +9,27 @@
 <body>
 <img class="logo" src="https://DickyFattah.github.io/progres-homepage-290919/LOGOPUTIH.png"/>
 <h1>SELAMAT DATANG DI WEBSITE KEYBUN</h1>
-<div class="login">
-<form name="login" action="home.html" onsubmit="return validateForm()" method="post">
-    <center><h2>Log In</h2></center>
-    <p><input type="text" name="username" placeholder="Enter Username" required /></p>
-    <p><input type="password" name="password" placeholder="Enter Password" required/></p>
-    <p><input type="submit" class="masukbutton" value="Masuk" /></p>
-</form>
+
+<div class="gambar1" >
+  
+  <img id="1" src="petani.png"width="600px" height="600px">
 </div>
+<div class="login">
+  <form action="home.html">
+    <table>
+      <tr>
+        <td>
+          <input type="text" class="text" placeholder="Username" required="" />
+        </td>
+        <td >
+          <input type="password" class="text" placeholder="Password" required/>
+        </td>
+        <td><input type="submit" class="masukbutton" value="MASUK" onclick="home.html" /></td>
+      </tr>
+      <tr><td><input type="checkbox"> Keep me logged in</td><td colspan="2"></td></tr>
+    </table>
+  </form>
+  </div>
 <div class="daftar">
 <form name="daftar" action="home.html" onsubmit="return validateDaftar()">
     <center><h2>Sign In</h2></center>
@@ -29,7 +42,7 @@
 </form>
 
 <script>
-function validateForm() {
+function validateLogin() {
   var x = document.forms["login"]["username"].value;
   if (x == "") {
     alert("Name must be filled out");
@@ -42,7 +55,7 @@ function validateDaftar() {
     alert("Name must be filled out");
     return false;
   }
-  
+
 }
 </script>
 </body>
