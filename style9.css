@@ -78,7 +78,7 @@ fieldset{
     line-height: 50px;
     background: #302c47;
     color: #fff;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     margin: 0px;
 }
