@@ -1,35 +1,19 @@
 <html>
-
 <head>
-
     <title>Kebunku FAQ</title>
-
     <link rel="stylesheet" href="faq.css">
-
 </head>
-
 <body>
-
 <div class="header">
-
    	<table>
-
    		<tr>
-
    			<td>
-
    			<div class=logo><img src="https://DickyFattah.github.io/progres-homepage-290919/LOGOPUTIH.png" width="200px"></div>
-
    			</td>
-
    			<td>
-
    			<div class="navigasi" align="right">
-
    				<nav>
-
    				<ul>
-
    					<li><a href="https://dickyfattah.github.io/home">Home</a></li> 
    					<li><a href="https://dickyfattah.github.io/index9">Article</a></li> 
     					<li><a href="https://dickyfattah.github.io/gallery">Gallery</a></li> 
@@ -39,63 +23,77 @@
     					<li><a href="https://dickyfattah.github.io/about">about</a></li>
     				<li><input type="text" placeholder="Cari..." ></li>
     				<li><input type="button" value="Cari"></li>
-
 				</ul>
-
 				</nav>
-
 			</div>
-
 			</td>
-
 		</tr>
-
 	</table>
-
 </div>
-
  	<div class="content">
-
-    	<center>
-
-	<fieldset>
-
-      
-			<h1>Pertanyaan Umum (FAQ)</h1>
-			<h2>1. Bagaimana berbelanja di Kebunku?</a></h2>
-      <h3>Karena kebunku merupakan situs ramah bagi petani vertical farm untuk menjual hasil panennya</h3>
-      <h2>2. Bayarnya bisa pakai apa aja ya?</h2>
-      <h3>Tranfer bank ke BCA</h3>
-      <h2>3. Apakah Kebunku ada kantor offline?</h2>
-      <h3>Ya ada, kamu bisa cek di Contact page</h3>
-      </fieldset>
-
-      </center>
-
+	    <div class="pertanyaanSatu">    
+			  <h1>Pertanyaan Umum (FAQ)</h1>
+		  	<h3>1. Bagaimana berbelanja di Kebunku?</a></h3>
+        <p>Karena kebunku merupakan situs ramah bagi petani vertical farm untuk menjual hasil panennya</p>
+        <h3>2. Bayarnya bisa pakai apa aja ya?</h3>
+        <p>Tranfer bank ke BCA</p>
+        <h3>3. Apakah Kebunku ada kantor offline?</h3>
+        <p>Ya ada, kamu bisa cek di Contact page</p>
+      </div>
+      <div class="pertanyaanDua">
+        <h1>Pertanyaan Tambahan</h1>
+        <h3>1. Kriteria tanaman yang bisa ditanam dengan metode vertical farming?</a></h3>
+        <p>Tanaman yang memliki akar yang bisa menyerap nutrisi dari air dengan metode akar gantung</p>
+        <h3>2. Apakah bisa belajar langsung vertical farming ini?</h3>
+        <p>Bisa, silahkan datang langsung ke kantor kami.Alamat lengkap suah terter di Contact Page</p>    
+      </div>
+        
+        <div class="btn"> 
+              <input id="btnShow" onclick="showPelajaran()" type="button" value="Tampilkan Lebih Banyak"></input>
+        </div>
+        <div class="btn"> 
+              <input id="btnHide" onclick="hidePelajaran()" type="button" value="Tampilkan Lebih Sedikit"></input>
+        </div>    
   </div>
-
 </div>
-
 <div class="footer">
-
   <footer >
-
     <center>
-
     	<label>Find Us on: </label>
-
     	<a href="https://www.malasngoding.com/category/html/"><img src="http://pluspng.com/img-png/instagram-png-instagram-png-logo-1455.png" width="20px" ></a>
-
     	<a href="https://www.malasngoding.com/category/html/"><img src="http://pngimg.com/uploads/twitter/twitter_PNG9.png" width="25px" ></a>
-
     	<a href="https://www.malasngoding.com/category/html/"><img src="https://backgrounddownload.com/wp-content/uploads/2018/09/facebook-icons-transparent-background-2.png" width="20px" ></a>
-
     <center>
-
 </div>
+
+<script type="text/javascript">
+    function showPelajaran() {
+            for (let el of document.querySelectorAll('.pertanyaanDua')) el.style.position = 'relative';
+            for (let el of document.querySelectorAll('.pertanyaanDua')) el.style.left = '0';
+    }
+    function hidePelajaran() {
+            for (let el of document.querySelectorAll('.pertanyaanDua')) {
+                el.style.left = '-100%';
+                el.style.transition= 'all .5s';
+            }
+            setTimeout(function () {
+                for (let el of document.querySelectorAll('.pertanyaanDua')) {
+                    el.style.position = 'absolute';
+                }
+            }, 250)
+    }
+    function show() {
+            document.querySelector('.menu ul').style.left = 0;
+            document.querySelector('.checkbtn').style.display = "none";
+            document.querySelector('.hidebtn').style.display = "block";
+        }
+        function hide() {
+            document.querySelector('.menu ul').style.left = '-100%';
+            document.querySelector('.hidebtn').style.display = "none";
+            document.querySelector('.checkbtn').style.display = "block";
+        }
+</script>
 
 </footer>
-
 </body>
-
 </html>
